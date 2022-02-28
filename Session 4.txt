@@ -1,0 +1,6 @@
+Project Requirement
+
+1. Create an exception InsufficientLeavelBalanceException.
+throw when the applied leave is greater than the available leaves.
+
+In the service class use try catch block to handle the exception

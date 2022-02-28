@@ -1,0 +1,19 @@
+User defined exceptions
+------------------------
+
+To create our own exception we need to define a sub class of Exception class.
+
+Demo1
+
+
+Assertions
+---------------
+
+Assertion is a condition that should be true during execution of a program. At run time
+if the condition is true no action takes place otherwise AssertionError will be thrown.
+
+By default this will be disabled. You can enable it while running it.
+
+
+java -ea programName.java
+

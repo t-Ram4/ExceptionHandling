@@ -1,0 +1,29 @@
+1.What is an Exception
+--------------------------
+An exception is an abnormal condition that arises in code during run time. It is  a 
+run time error.
+
+2.Exception class hierachy
+-----------------------------
+Base class of all exceptions is Throwable.It has two sub classes Exception and Error.
+Error represent the errors happens in the Java runtime environment itself and it cannot
+be handled in code. So we are not dealing with that.
+
+3.Handling exception using try catch blocks
+--------------------------------------------
+You have to keep the code which are vulnurable to throw exceptions inside the try block.
+Write the catch blocks under try block.
+
+Demo1
+
+4.Use of finally block
+------------------------
+When you want to execute a code always irespective of whether exception is thrown or not then we will have 
+to write that code inside finally block.
+It is executed when
+1.Exception is thrown but not handled
+2.Exception is thrown and handled
+3.No Exception
+4.Forced to return using return statement
+
+Demo2

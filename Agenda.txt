@@ -1,0 +1,19 @@
+Agenda
+-----------
+
+1.What is an Exception?
+
+2.Exception class hierarchy
+
+3.Handling exception using try catch blocks
+
+4.Use of finally block
+
+5.Using Throw and Throws clause 
+
+6.Checked Exceptions and Unchecked Exceptions
+
+7.User defined exceptions
+
+8.Assertions
+

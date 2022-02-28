@@ -1,0 +1,27 @@
+Using Throw and Throws clause
+-------------------------------
+throw
+-------
+It is possible to throw an exception in our code using throw statement.
+Demo1
+
+
+
+throws
+-------------------
+
+If a method is capable of causing an exception that it does not handle, it must specify this behavior 
+so that the caller of the method can guard themselves against the exception. For that we use throws
+clause in the method declaration.
+
+Demo2
+
+
+
+Checked Exceptions and Unchecked Exceptions
+----------------------------------------------
+The sub classes of RuntimeException need not be included in the throws list of any methods  because the compiler
+does not check whether they are handled or not. So they are called unchecked exceptions.
+
+There are some exceptions which must be handled by the method or declared in the throws list otherwise
+ the compiler will give error message. They are called checked exceptions. 
